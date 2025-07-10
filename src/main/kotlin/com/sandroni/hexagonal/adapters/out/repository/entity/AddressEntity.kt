@@ -12,4 +12,11 @@ data class AddressEntity(
          address.city,
          address.state
     )
+
+    fun toAddress() =
+        Address(
+            street = street,
+            city = city,
+            state = state
+        )
 }

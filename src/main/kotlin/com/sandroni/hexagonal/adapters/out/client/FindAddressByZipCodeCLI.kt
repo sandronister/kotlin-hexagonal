@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.PathVariable
     name = "findAddressByZipCodeClient",
     url = "\${sandroni.client.address.url}",
 )
-interface FindAddressByZipCodeClient {
+interface FindAddressByZipCodeCLI {
 
     @GetMapping("/{zipcode}")
     fun find(@PathVariable zipcode: String): AddressResponse

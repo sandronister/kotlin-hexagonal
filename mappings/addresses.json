@@ -1,0 +1,17 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/addresses/18060050"
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "jsonBody": {
+            "street": "Rua Hexagonal",
+            "city": "Sorocaba",
+            "state": "São Paulo"
+        }
+    }
+}
